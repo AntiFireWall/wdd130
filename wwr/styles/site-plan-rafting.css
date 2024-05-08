@@ -19,7 +19,7 @@ body
 
     --nav-background-color: #002e2c;
     --nav-link-color: #f3eff5;
-    --nav-hover-color: #002e2c;
+    --nav-hover-link-color: #002e2c;
     --nav-hover-background-color: #f3eff5;
 }
 
@@ -59,7 +59,7 @@ nav a:link, nav a:visited
 }
 nav a:hover
 {
-    color: var(--nav-hover-color);
+    color: var(--nav-hover-link-color-color);
     background-color: var(--nav-hover-background-color);
 }
 
