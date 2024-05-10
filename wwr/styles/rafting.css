@@ -20,11 +20,63 @@
 h1, h2, h3, h4, h5, h6
 {
     font-family: var(--heading-font);
+    color: var(--accent2-color);
     margin: 10px;
 }
 
 p
 {
     font-family: var(--paragraph-font);
+    color: var(--accent1-color);
     margin: 5px;
+}
+
+.sociallinks 
+{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+}
+
+.hero img[src="images/heroimage.jpg"]
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1
+{
+    margin: 1px;
+    position: absolute;
+    top: 600px;
+    background-color: #f3eff52b;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hero article
+{
+    display: block;
+    position: absolute;
+    top: 780px;
+    background-color: rgba(173, 216, 230, 0.792);
+    padding: 10px;
+    text-align: left;
+    width: 60rem;
+    font-size: 25px;
+}
+
+.hero img
+{
+    width: 20rem;
+    float: right;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: center;
 }
