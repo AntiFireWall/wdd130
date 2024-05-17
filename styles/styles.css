@@ -66,6 +66,11 @@ aside
    grid-column: 1/2;
 }
 
+aside p
+{
+    color: black;
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -103,7 +108,7 @@ footer p
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem 30px 1rem 1rem;
-    background-color: lightgray;
+    background-color: rgb(232, 230, 230);
     color: white;
 }
 
