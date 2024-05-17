@@ -11,10 +11,31 @@
     --heading-font: 'Barlow', serif;
     --paragraph-font: 'Quicksand', serif;
 
-    --nav-background-color: #002e2c;
+    --nav-background-color: #134266;
     --nav-link-color: #f3eff5;
     --nav-hover-link-color: #002e2c;
     --nav-hover-background-color: #f3eff5;
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+nav a
+{
+    padding: 5px;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: 25px;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
 }
 
 h1, h2, h3, h4, h5, h6

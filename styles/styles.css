@@ -25,6 +25,7 @@ nav a {
 
 h1{
     color: steelblue;
+    margin: 5px;
 }
 
 main img
@@ -64,6 +65,11 @@ aside
    position: relative;
    grid-row: 1/2;
    grid-column: 1/2;
+}
+
+ul
+{
+    padding: 16px 30px;
 }
 
 li
