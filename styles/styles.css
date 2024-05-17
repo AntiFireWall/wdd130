@@ -59,7 +59,7 @@ aside
    margin: 5px;
    border: 1px solid rgba(0,0,0,0.2); 
    background-color: white;
-   color: #333;
+   color: lightgray;
    text-align: center;
    position: relative;
    grid-row: 1/2;
@@ -103,7 +103,7 @@ footer p
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem 30px 1rem 1rem;
-    background-color: gray;
+    background-color: lightgray;
     color: white;
 }
 
