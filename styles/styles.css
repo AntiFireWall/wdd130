@@ -58,12 +58,17 @@ aside
    width: 18rem;
    margin: 5px;
    border: 1px solid rgba(0,0,0,0.2); 
-   background-color: white;
-   color: lightgray;
+   background-color: lightgray;
+   color: black;
    text-align: center;
    position: relative;
    grid-row: 1/2;
    grid-column: 1/2;
+}
+
+li
+{
+    color: black; 
 }
 
 aside p
