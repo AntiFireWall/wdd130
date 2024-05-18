@@ -68,7 +68,7 @@ p
 {
     display: grid;
     grid-template-columns: repeat(3, 450px);
-    grid-template-rows: 50px 100%-50px;
+    grid-template-rows: 50px 256px;
     justify-content: center;
     align-content: center;
     justify-items: center;
