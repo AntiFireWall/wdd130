@@ -27,8 +27,14 @@ header
     background-color: var(--secondary-color);
 }
 
-nav a
+header nav
 {
+    display: flex;
+}
+
+header nav a
+{
+    margin: 3px;
     padding: 5px;
     text-decoration: none;
     font-family: var(--heading-font);
@@ -36,6 +42,12 @@ nav a
     color: var(--nav-link-color);
     background-color: var(--nav-background-color);
     border-radius: 5px;
+}
+
+header nav a:hover
+{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 h1, h2, h3, h4, h5, h6
@@ -52,17 +64,86 @@ p
     margin: 5px;
 }
 
+.history
+{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: 50px 100%-50px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.history h2
+{
+    grid-column: span 3;
+    grid-row: 1;
+    justify-self: center;
+}
+
+.adventure
+{
+    display: grid;
+    grid-template-columns: repeat(5, 350px);
+    grid-template-rows: 50px 500px;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.adventure img
+{
+    width: 300px;
+    border: 5px solid black;
+}
+
+.adventure h2
+{
+    grid-column: span 5;
+}
+
+.adventure figcaption
+{
+    text-align: center;
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+    margin: 5px;
+}
+
 .sociallinks 
 {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: 50px;
     text-decoration: none;
     width: 50px;
     height: 50px;
+    gap: 5px;  
+    margin-left: 100px;
+}
+
+.sociallinks a
+{
+    
 }
 
 .hero img[src="images/heroimage.jpg"]
 {
-    display: block;
-    position: relative;
     width: 100%;
     height: auto;
 }
@@ -82,7 +163,6 @@ p
 {
     display: block;
     position: absolute;
-    top: 780px;
     background-color: rgba(173, 216, 230, 0.792);
     padding: 10px;
     text-align: left;
@@ -100,4 +180,5 @@ p
 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
