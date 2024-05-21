@@ -118,7 +118,7 @@ footer p
     color: white;
 }
 
-ul[class="box"]
+ul.box
 {
     padding: 1rem 30px;
 }
