@@ -26,6 +26,7 @@ nav a {
 h1{
     color: steelblue;
     margin: 5px;
+    border-bottom: 1px solid steelblue;
 }
 
 main img
@@ -41,7 +42,6 @@ main img
 
 main p
 {
-    border-top: 1px solid steelblue;
     padding-top: 5px;
 }
 
@@ -65,11 +65,6 @@ aside
    position: relative;
    grid-row: 1/2;
    grid-column: 1/2;
-}
-
-ul
-{
-    padding: 16px 30px;
 }
 
 li
@@ -121,6 +116,11 @@ footer p
     padding: 1rem 30px 1rem 1rem;
     background-color: rgb(232, 230, 230);
     color: white;
+}
+
+ul[class="box"]
+{
+    padding: 1rem 30px;
 }
 
 .grid
