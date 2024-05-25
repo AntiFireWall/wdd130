@@ -1,0 +1,73 @@
+body
+{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 10rem;
+}
+
+h1
+{
+    color: green;
+}
+
+form 
+{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+fieldset
+{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 10px;
+    border: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+label, input, select
+{
+    margin: 15px;
+}
+
+label
+{
+    font-size: 18px;
+}
+
+span 
+{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select
+{
+    margin-top: 0;
+    padding: 5px;
+}
+
+input[type="textarea"]
+{
+    height: 100px;
+}
+
+button
+{
+    margin: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
+    font-size: 25px;
+    border: 0;
+    background-color: green;
+    color: white;
+}

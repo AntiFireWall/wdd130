@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <title>Document</title>
+    <meta name="description" content="A quiz">
+    <meta name="author" content="Daniel Ayvazyan">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
-    
+    <h1>Basic HTML and CSS Quiz</h1>
+    <form>
+        <fieldset class="questions">
+        <label for="html"><span>1.</span> What is HTML used for?</label>
+        <input type="text" name="html" id="html">
+
+        <label for="id/class"><span>2.</span> What are id and class attributes used for in CSS?</label>
+        <input type="textarea" name="id/class" id="id/class">
+
+        <label for="comment"><span>3.</span> Which one is a valid CSS comment?</label>
+        <select name="comment" id="comment">
+            <option value="empty"></option>
+            <option value="#"># comment</option>
+            <option value="//">// comment</option>
+            <option value="/* */">/* comment */</option>
+        </select>
+
+        <label for="margin"><span>4.</span> What is the default margin size for the body element in HTML?</label>
+        <input type="number" name="margin" id="margin">
+
+        <button type="submit">Submit Quiz</button>
+        </fieldset>
+        
+    </form>
 </body>
 </html>
