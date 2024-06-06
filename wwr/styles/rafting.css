@@ -30,6 +30,12 @@ body
     flex-direction: column;
 }
 
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+
 header
 {
     display: grid;
@@ -300,7 +306,7 @@ a[href="https://app.moqups.com/LPM0h1siHU87wMUH4iqsxRIMPjQMB4oU/view/page/ad6422
     padding: 10px;
 }
 
-.form-section button
+button
 {
     border: 0;
     margin-top: 10px;
@@ -312,4 +318,76 @@ a[href="https://app.moqups.com/LPM0h1siHU87wMUH4iqsxRIMPjQMB4oU/view/page/ad6422
     border-radius: 5px;
     color: var(--accent2-color);
     background-color: var(--accent1-color);
+}
+
+/* Trips Page */
+
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.banner h1
+{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+.banner p
+{
+    background-color: rgba(255, 255, 255);
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid var(--secondary-color);
+    max-width: 1000px;
+    min-width: 500px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.trips
+{
+    display: grid;
+    grid-template-columns: 0.5fr repeat(3, minmax(auto, auto)) 0.5fr;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.trips div:nth-child(1)
+{
+    grid-column: 2;
+}
+
+.trips_block 
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-width: 500px;
+    min-width: 300px;
+    border: 5px solid var(--secondary-color);
+}
+
+#trips-img1
+{
+    background-image: url('../images/img3.jpg');
 }
