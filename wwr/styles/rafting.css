@@ -277,7 +277,7 @@ footer p
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+    margin: 20px;
 }
 
 .form-section form
@@ -390,4 +390,64 @@ button
 #trips-img1
 {
     background-image: url('../images/img3.jpg');
+}
+
+/* Home Page */
+
+.hero-banner
+{
+    background-image: url(../images/hero_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.hero-banner h1
+{
+    font-size: 70px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hero-banner h2
+{
+    font-size: 30px;
+    background-color: white;
+    padding: 5px;
+}
+
+.content-grid
+{
+    display: grid;
+    grid-template-columns: 0.5fr repeat(3, minmax(auto, auto)) 0.5fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.content-grid div:nth-child(1)
+{
+    grid-column: 2;
+}
+
+.content-block
+{
+    border: 5px solid var(--secondary-color);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.content-block img
+{
+    max-height: 200px;
+    min-height: 100px;
+    max-width: 500px;
+    min-width: 200px;
 }
